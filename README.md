@@ -1,5 +1,6 @@
 # Google Spreadsheets phonetic transcription of English words
-There is a formula for Google Spreadsheets to get the phonetic transcription of English word from Cambridge Dictionary:
+There is a formula for Google Spreadsheets to get the phonetic transcription of English word from Cambridge Dictionary.
+International Phonetic Alphabet (IPA) symbols used.
 
 ```
 =(JOIN("";IMPORTXML(CONCATENATE("https://dictionary.cambridge.org/dictionary/english/";A2);$C$2)))
