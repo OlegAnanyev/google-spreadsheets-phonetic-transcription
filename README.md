@@ -6,7 +6,9 @@ There is a formula for Google Spreadsheets to get the phonetic transcription of 
 ```
 
 *A2* -- the word you need to get transcription for
+
 *C2* -- XPath to transcription element on the page of cambridge.org (it is a constant):
+
 ```
 //*[@id="page-content"]/div[2]/div[1]/div[2]/div/div[3]/div/div/div/div[2]/span[1]/span[3]/span
 ```
